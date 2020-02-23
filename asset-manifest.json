@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/dania.github.io/static/css/main.12904769.chunk.css",
-    "main.js": "/dania.github.io/static/js/main.f5e80387.chunk.js",
-    "main.js.map": "/dania.github.io/static/js/main.f5e80387.chunk.js.map",
-    "runtime-main.js": "/dania.github.io/static/js/runtime-main.4b1f7dbf.js",
-    "runtime-main.js.map": "/dania.github.io/static/js/runtime-main.4b1f7dbf.js.map",
-    "static/js/2.daaa3a4e.chunk.js": "/dania.github.io/static/js/2.daaa3a4e.chunk.js",
-    "static/js/2.daaa3a4e.chunk.js.map": "/dania.github.io/static/js/2.daaa3a4e.chunk.js.map",
-    "index.html": "/dania.github.io/index.html",
-    "precache-manifest.e6015d0ccb6d6cc46f7648d4b0deadb1.js": "/dania.github.io/precache-manifest.e6015d0ccb6d6cc46f7648d4b0deadb1.js",
-    "service-worker.js": "/dania.github.io/service-worker.js",
-    "static/css/main.12904769.chunk.css.map": "/dania.github.io/static/css/main.12904769.chunk.css.map",
-    "static/js/2.daaa3a4e.chunk.js.LICENSE": "/dania.github.io/static/js/2.daaa3a4e.chunk.js.LICENSE",
-    "static/media/img-1.png": "/dania.github.io/static/media/img-1.0d08163d.png",
-    "static/media/img-2.jpg": "/dania.github.io/static/media/img-2.693d5c25.jpg"
+    "main.css": "/static/css/main.12904769.chunk.css",
+    "main.js": "/static/js/main.1c6f1aca.chunk.js",
+    "main.js.map": "/static/js/main.1c6f1aca.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.812100ed.js",
+    "runtime-main.js.map": "/static/js/runtime-main.812100ed.js.map",
+    "static/js/2.f54b4473.chunk.js": "/static/js/2.f54b4473.chunk.js",
+    "static/js/2.f54b4473.chunk.js.map": "/static/js/2.f54b4473.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.8220c0c66c8f8fb62c9dba3c1b19e7f0.js": "/precache-manifest.8220c0c66c8f8fb62c9dba3c1b19e7f0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.12904769.chunk.css.map": "/static/css/main.12904769.chunk.css.map",
+    "static/js/2.f54b4473.chunk.js.LICENSE": "/static/js/2.f54b4473.chunk.js.LICENSE",
+    "static/media/img-1.png": "/static/media/img-1.0d08163d.png",
+    "static/media/img-2.jpg": "/static/media/img-2.693d5c25.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4b1f7dbf.js",
-    "static/js/2.daaa3a4e.chunk.js",
+    "static/js/runtime-main.812100ed.js",
+    "static/js/2.f54b4473.chunk.js",
     "static/css/main.12904769.chunk.css",
-    "static/js/main.f5e80387.chunk.js"
+    "static/js/main.1c6f1aca.chunk.js"
   ]
 }
