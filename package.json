@@ -1,5 +1,5 @@
 {
-  "homepage": "http://dania-adbul.github.io/dania.github.io",
+  "homepage": "http://dania-abdul.github.io/portfolio",
   "name": "my-resume",
   "version": "0.1.0",
   "private": true,
@@ -52,4 +52,3 @@
     "gh-pages": "^2.2.0"
   }
 }
-
