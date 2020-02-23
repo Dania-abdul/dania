@@ -1,0 +1,104 @@
+
+//-----------------------
+//Header
+//-----------------------
+.header {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: block;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+.header__inner {
+    padding: 24px 0;
+
+    .col {
+        @media only screen and (max-width: 768px) {
+            padding-right: 0;
+        }
+    }
+}
+
+.header__name {
+    @include fluid-sizing(320px, 1440px, 20px,24px, 'font-size') ;
+    font-family: $font--abril;
+    text-transform: uppercase;
+}
+
+//-----------------------
+//Header - Nav
+//-----------------------
+
+.header__nav-list.nav {
+    justify-content: flex-end;
+}
+
+.nav-list__item {
+    padding-left: 23px;
+}
+
+.nav-list__print {
+    display: none;
+    .cv & {
+        display: inline-block;
+        
+        svg {
+            transition: all 0.2s;
+        }
+        &:hover {
+            svg {
+                fill: $color-primary;
+            }
+        }
+    }
+}
+
+// //------ lang
+button[class^="language-switch__button--"] {
+        transition: all 0.5s;
+        padding: 0 4px;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: white;
+    }
+}
+
+.language-switch__button--nl {
+    box-shadow: inset 0 0 0 $color-primary;
+   
+    &:hover,
+    &:focus,
+    &:active {
+        box-shadow: inset -10em 0 0  $color-primary;
+    }
+}
+
+.language-switch__button--nl--active {
+    background: $color-primary;
+    color: white;
+}
+
+
+.language-switch__button--en {
+    box-shadow: inset 0 0 0 #696969;
+   
+    &:hover,
+    &:focus,
+    &:active {
+        box-shadow: inset 10em 0 0 #696969;
+
+    }
+}
+
+.language-switch__button--en--active {
+    background: #696969;
+    color: white;
+}
+
+
