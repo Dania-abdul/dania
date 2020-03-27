@@ -1,0 +1,124 @@
+
+//-----------------------
+//HOME PAGE | blocks
+//-----------------------
+.home-container-m {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+//----home-text
+.home-text {
+   padding-top: 50px;
+   margin-bottom: 50px;
+   @media only screen and (min-width: 768px) {
+    padding-top: 200px;
+    margin-bottom: 150px;
+   }
+}
+
+
+.home-text__title {
+    font-size: $title--m;
+    margin-bottom: 20px;
+    @media only screen and (min-width: 768px) {
+        margin-bottom: 0;
+    }
+
+}
+
+.home-text__text {
+    max-width: 500px;
+    display: inline;
+    font-size: $text--s;
+    line-height: 2.0;
+    opacity: 0.6;
+    text-align: left;
+}
+
+//----code-block
+
+.code-block {  
+    @include fluid-sizing(320px, 1440px, 14px, 16px, 'font-size') ;  
+    background: #141c20;
+    font-family: 'Roboto Mono', monospace;
+    font-size: $text-code;
+    line-height: $text-code-lineheight;
+    overflow-wrap: break-word;
+
+    margin-bottom: 50px; 
+    @media only screen and (min-width: 768px) {
+         margin-bottom: 150px;
+    }
+
+    .method {
+        color: #6796E6;
+        display: inline;
+    }
+    
+    .propname {
+        color: #4EC9B0;
+    }
+    
+    .dots {
+        color: #3b3553;
+        display: inline;
+        vertical-align: text-top;
+    }
+    
+    .comment {
+        color: #78707e;
+        display: inline;
+    }
+    
+    .scope {
+        color: #4EC9B0;
+        display: inline;
+    }
+    
+    .prop2 {
+        color: #9CDCFE;
+    }
+    
+    .string {
+        color: #CE9178;
+    }
+    
+    .number {
+        color: #DCDCAA;
+    }
+    .symbol {
+        display: inline;
+        color: #ffffff;
+    }
+}
+
+.code-block__inner {
+    padding: 30px 0;
+    margin: 0 50px;
+    counter-reset: step;
+    counter-increment: step 0;
+}
+
+.code-line {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        left: -30px;
+        color: $color-white;
+        font-size: 16px;
+        top: 0;
+        position: absolute;
+        content: counter(step);
+        counter-increment: step;
+        font-family:'Courier New', Courier, monospace;
+        opacity: 0.5;
+    }
+}
+
+.home-text__link {
+    margin-left: 11px;
+    text-transform: uppercase;
+}

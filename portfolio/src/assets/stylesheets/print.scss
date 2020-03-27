@@ -1,0 +1,45 @@
+@media print{
+
+    a,
+    .header__link{
+        text-decoration: none !important;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .icon--save,
+    .language-switch,
+    .footer{
+        display: none;
+    }
+
+    .about__img {
+        width: 300px;
+    }
+    .cv-table{
+        .row {
+            flex-direction: row;
+        }
+    } 
+    .cv-table__content{
+        .collapse:not(.show) {
+            display: inline !important;
+        }
+    }
+
+    .about__content {
+        margin-bottom: 40px;
+    }
+
+    .print--comment {
+        display: block !important;
+    }
+
+    .styled--city {
+        &::before {
+            display: none;
+        }
+    }
+}
