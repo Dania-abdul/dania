@@ -31,7 +31,7 @@ export class CvComponent extends React.Component <CvProps, CvState> {
                         <img className="about__img img-fluid" aria-label="impressive picture of me" alt="Responsive image" src={Image1} data-lazy-type="image"/>
                     </div>
                 </div> */}
-                <div className="about__content">
+                <div className="about__">
          	        <div className="about__content-top">
                          <div className="about__content-top-inner">
                              <h1 className="about__header">{i18next.t("_cvTitle")}</h1> 
