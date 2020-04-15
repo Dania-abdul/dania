@@ -242,7 +242,7 @@
     }
     .symbol {
         display: inline;
-        color: $color-white;
+        color: $color-secondary ;
     }
 }
 
@@ -264,7 +264,7 @@
     &::before {
         position: absolute;
         left: -30px;
-        color: $color-white;
+        color: $color-secondary ;
         font-size: 16px;
         top: 0;
         position: absolute;

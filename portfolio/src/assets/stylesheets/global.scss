@@ -130,12 +130,12 @@ html {
 //-----------------------
 
 a {
-  color: $color-black;
+  color: $color-primary;
   display: inline-block;
   transition: color 0.2s;
     
   &:hover {
-    color: $color-primary;      
+    color: $color-link;      
     text-decoration: none;
   } 
 }
@@ -145,7 +145,7 @@ a {
 .page-layout {
   min-height: 100%;
   position: relative;
-  background: $color-white;
+  background: $color-secondary ;
 }
 
 .content {
