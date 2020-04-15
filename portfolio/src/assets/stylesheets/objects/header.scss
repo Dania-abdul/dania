@@ -92,18 +92,18 @@ button[class^="language-switch__button--"] {
 
 
 .language-switch__button--en {
-    box-shadow: inset 0 0 0 #696969;
+    box-shadow: inset 0 0 0 $color-gray--dark;
    
     &:hover,
     &:focus,
     &:active {
-        box-shadow: inset 10em 0 0 #696969;
+        box-shadow: inset 10em 0 0 $color-gray--dark;
 
     }
 }
 
 .language-switch__button--en--active {
-    background: #696969;
+    background: $color-gray--dark;
     color: white;
 }
 

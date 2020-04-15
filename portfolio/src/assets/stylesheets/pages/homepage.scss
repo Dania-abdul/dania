@@ -192,7 +192,7 @@
 
 
 .code-block {
-    background: #141c20; 
+    background-color: map-get($code-editor-theme,editor--background);
     @include fluid-sizing(320px, 1440px, 12px, 16px, 'font-size') ;  
     font-family: 'Roboto Mono', monospace;
     font-size: $text-code;
@@ -205,40 +205,40 @@
     }
 
     .method {
-        color: #6796E6;
+        color: map-get($code-editor-theme,editor--method);
         display: inline;
     }
     
     .propname {
-        color: #4EC9B0;
+        color: map-get($code-editor-theme,editor--propname);
     }
     
     .dots {
-        color: #3b3553;
+        color: map-get($code-editor-theme,editor--dots);
         display: inline;
         vertical-align: text-top;
     }
     
     .comment {
-        color: #78707e;
+        color: map-get($code-editor-theme,editor--comment);
         display: inline;
     }
     
     .scope {
-        color: #4EC9B0;
+        color: map-get($code-editor-theme,editor--scope);
         display: inline;
     }
     
     .prop2 {
-        color: #9CDCFE;
+        color: map-get($code-editor-theme,editor--prop2);
     }
     
     .string {
-        color: #CE9178;
+        color: map-get($code-editor-theme,editor--string);
     }
     
     .number {
-        color: #DCDCAA;
+        color: map-get($code-editor-theme,editor--number);
     }
     .symbol {
         display: inline;
@@ -247,6 +247,7 @@
 }
 
 .code-block__inner {
+
     padding: 30px 50px;
     counter-reset: step;
     counter-increment: step 0;
