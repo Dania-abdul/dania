@@ -145,7 +145,7 @@ a {
 .page-layout {
   min-height: 100%;
   position: relative;
-  background: #fff;
+  background: $color-white;
 }
 
 .content {
@@ -155,5 +155,7 @@ a {
 //-----
 
 img {
-  width: 100%;
+  display: block;
+    max-width: 100%;
+    height: auto;
 }

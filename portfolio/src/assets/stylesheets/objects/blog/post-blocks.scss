@@ -5,7 +5,7 @@
 
 ///------------- shared
 .post {
-    color: #000000;
+    color: $color-black;
 }
 
 .post-block {
@@ -24,7 +24,7 @@
 
 
 .post-label {
-    color: #ffffff;
+    color: $color-white;
     background-color: $color-primary;
     padding: 4px 8px;
 }
@@ -108,7 +108,7 @@
 
         &:hover,
         &:focus {
-            color: #000000;
+            color: $color-black;
         }
     }
 }
@@ -174,7 +174,7 @@
     &:before {
         content: "";
         width: 200px;
-        background-color: #000000;
+        background-color: $color-black;
         height: 1px;
         display: block;
         margin: 0 auto;
@@ -211,7 +211,7 @@
     &:before {
         content: "";
         width: 200px;
-        background-color: #000000;
+        background-color: $color-black;
         height: 1px;
         display: block;
         margin: 0 auto;
