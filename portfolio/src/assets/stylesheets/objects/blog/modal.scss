@@ -12,8 +12,8 @@
 }
 
 .modal__header {
-    background: $color-primary;
-    color: $color-secondary ;
+    background-color:  var(--background-color);
+    color:  var(--color);
     padding:  20px;
     align-items: center;
     display: flex;

@@ -5,7 +5,7 @@
 
 ///------------- shared
 .post {
-    color: $color-primary;
+    color:  var(--color);
 }
 
 .post-block {
@@ -25,7 +25,7 @@
 
 .post-label {
     color: $color-secondary ;
-    background-color: $color-link;
+    background-color:  var(--link-color);
     padding: 4px 8px;
 }
 
@@ -104,7 +104,7 @@
      }
 
     .post-link {
-        color: $color-link;
+        color:  var(--link-color);
 
         &:hover,
         &:focus {

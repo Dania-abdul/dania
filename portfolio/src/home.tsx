@@ -32,13 +32,14 @@ export class HomeComponent extends React.Component <HomeProps, HomeState> {
                         <div className="home-intro__content">
                             <div className="home-intro__content-inner">
                                 <p className="intro__text">
-                                    hello <br/>
+                                    heyo <br/>
                                     I'm a Front-end developer,
                                     I enjoy building websites using 
                                     different technologies
                                 </p>
-                                <p className="intro__text">On daily bases...<br/>
-                                    I care of my plants, embroider,
+                                <p className="intro__text">
+                                    On daily bases...<br/>
+                                    I write css, care of my plants, embroider,
                                     make good food,
                                     and drink a lot of coffee
                                 </p>
@@ -57,7 +58,7 @@ export class HomeComponent extends React.Component <HomeProps, HomeState> {
                         
                         <div className="home-blog">
                             <header className="home-sec-header">
-                                <span>BLOG</span>
+                                <a href="/portfolio/blog">BLOG</a>
                             </header>
                             <div className="home-blog__inner">
                                 <div className="home-blog__post">
