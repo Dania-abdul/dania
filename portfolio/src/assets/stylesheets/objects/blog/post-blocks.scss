@@ -5,7 +5,7 @@
 
 ///------------- shared
 .post {
-    color:  var(--color);
+    color:  var(--text-color);
 }
 
 .post-block {
@@ -89,7 +89,7 @@
             left: 0;
             top: 6px;
             border-style: solid;
-            border-color: transparent $color-link;
+            border-color: transparent var(--link-color);
             border-width: 0.35em 0 0.35em 0.45em;
         }
     }

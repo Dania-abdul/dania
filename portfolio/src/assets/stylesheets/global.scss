@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  color:  var(--color);
+  color:  var(--text-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size-adjust: auto;
@@ -133,10 +133,10 @@ html {
 a {
   color: var(--link-color); 
   display: inline-block;
-  transition: color 0.2s;
+  transition: all 0.3s;
     
   &:hover {
-    color: var(--color);      
+    color: var(--text-color);      
     text-decoration: none;
   } 
 }

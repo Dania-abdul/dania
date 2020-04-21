@@ -13,6 +13,7 @@
 }
 
 .home-sec-header {
+    color: var(--text-color);
     margin-bottom: 20px;
     font-weight: 500;
     @media only screen and (min-width: 768px) {
@@ -66,7 +67,7 @@
     }
 }
 
-.home-intro__social {
+.list-social {
     font-family: "Abril Fatface", cursive;
     font-size: 18px;
     display: flex;
@@ -110,7 +111,7 @@
         }
         
         .strikethrough{
-            color: #ff6933;
+            color: var(--link-color);
         }
 
         .strikethrough:after {
@@ -146,6 +147,7 @@
 
 .home-blog__content {
     text-align: center;
+    color: var(--text-color);
 }
 
 .home-blog__title {
@@ -177,7 +179,7 @@
 	height: 1px;
 	box-shadow: 0 1px rgba(255,255,255,0.6);
 	margin-top: -0.7em;
-	background: black;
+	background: #000;
 	transform-origin: center left;
 	animation: strikethrough 1s 0.5s cubic-bezier(.55, 0, .1, 1) 1;
 	transition: transform 0.5s cubic-bezier(.55, 0, .1, 1);
