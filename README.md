@@ -26,7 +26,7 @@ and hosted with GitHub Pages
 
 ***Resume/cv Header---- Tablet capture***
 
-[![Blog](https://imgshare.io/images/2020/02/24/cv-medium-en-resize.png)]()
+[![Projects](https://imgshare.io/images/2020/02/24/cv-medium-en-resize.png)]()
 
 
 
@@ -52,11 +52,11 @@ is to install the Office UI Fabric React framework into our project using npm.
 npm --save install office-ui-fabric-react
 ````
 
-Fabric UI is used in the blog home page-- mainly for testing the framework implementation
+Fabric UI is used in the Projects home page-- mainly for testing the framework implementation
 
-***Blog main page--- desktop***
+***Projects main page--- desktop***
 
-[![Blog](https://i.ibb.co/8D4hbPZ/blog-capture.png)]()
+[![Projects](https://i.ibb.co/8D4hbPZ/projects-capture.png)]()
 
 
 ## bootstrap-4
@@ -68,11 +68,11 @@ Fabric UI is used in the blog home page-- mainly for testing the framework imple
 
 ## custom-css-building-block
 
-***Blog post---- custom blocks--objects & components***
+***Projects post---- custom blocks--objects & components***
 
 custom (s)css
 
-[![customblocks](https://i.ibb.co/tpSmRGW/blog-post-customblocks-Capture.png)]()
+[![customblocks](https://i.ibb.co/tpSmRGW/projects-post-customblocks-Capture.png)]()
 
 
 ## i18next-translation 
